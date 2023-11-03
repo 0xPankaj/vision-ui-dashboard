@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git '' git branch: 'main', credentialsId: 'github-credentials', url: 'git@github.com:0xPankaj/vision-ui-dashboard.git'
+        git branch: 'main', credentialsId: 'github-credentials', url: 'git@github.com:0xPankaj/vision-ui-dashboard.git'
       }
     }
 
